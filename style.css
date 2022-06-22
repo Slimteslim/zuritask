@@ -1,0 +1,119 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    ;
+}
+body {
+    font-size: 15px;
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    background: white;
+}
+
+.sedans, .suvs, .luxury {
+    color: white;
+    padding: 37px;
+    width: 15em;
+    height: auto;
+ }
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+border: 1px black transparent;
+    border-top-left-radius: 7px; 
+    border-bottom-left-radius: 7px;
+}
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 7px; 
+    border-bottom-right-radius: 7px;
+} 
+h3 {
+    padding-bottom: 20px;
+    font-family:'Big Shoulders Display', cursive;
+    font-size: 1.5em;   
+}
+img {
+    padding-bottom: 20px;
+}
+
+p {
+    padding-bottom: 50px;
+    font-family: 'Lexend Deca', sans-serif;
+    
+}
+.button {
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-top: 7px;
+}
+.button.one {
+    color: hsl(31, 77%, 52%)   
+}
+
+.button.two {
+    color: hsl(184, 100%, 22%);
+}
+.button.three {
+    color: hsl(179, 100%, 13%);
+}
+.button.one:hover{
+    background-color: hsl(31, 77%, 52%);
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+}
+.button.two:hover{
+    background-color: hsl(184, 100%, 22%);
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+}
+.button.three:hover{
+    background-color: hsl(179, 100%, 13%);
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+}
+header {
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    text-decoration: none;
+    background-color: hsl(31, 77%, 52%);
+    align-items: center;
+    padding-left: 35%;
+}
+ul {
+    display: flex;
+    
+}
+li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Lexend Deca', sans-serif;    font-weight: bold;
+    
+      
+}
+li {
+    width: 40px;
+    margin: 0px 50px ;
+}
+li:hover {
+    text-decoration: underline;
+} 
